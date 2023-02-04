@@ -1,0 +1,36 @@
+{
+  "name": "quick-resize",
+  "version": "1.0.0",
+  "description": "Quickly resize multiple images with the `quick-resize` command-line tool. Resize images to your desired widths efficiently and with minimal dependencies. Perfect for preparing images for a website, reducing file size, or sharing images.",
+  "main": "bin/index.js",
+  "bin": {
+    "quick-resize": "bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.31.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "package": "standard-version && git push --follow-tags origin main && npm publish"
+  },
+  "keywords": [
+    "Image resizing",
+    "Batch processing",
+    "Command-line tool",
+    "Image processing",
+    "Image manipulation"
+  ],
+  "author": {
+    "name": "Shinichi Okada",
+    "email": "connect@codewithshin.com",
+    "url": "https://blog.codewithshin.com"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/shinokada/quick-resize/issues",
+  "homepage": "https://quick-resize.codewithshin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinokada/quick-resize"
+  }
+}
