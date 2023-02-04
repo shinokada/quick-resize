@@ -1,6 +1,6 @@
 {
   "name": "quick-resize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quickly resize multiple images with the `quick-resize` command-line tool. Resize images to your desired widths efficiently and with minimal dependencies. Perfect for preparing images for a website, reducing file size, or sharing images.",
   "main": "bin/index.js",
   "bin": {
