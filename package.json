@@ -6,7 +6,6 @@
   "bin": {
     "fast-resize": "bin/index.js"
   },
-  "type": "module",
   "dependencies": {
     "sharp": "^0.31.3"
   },
