@@ -1,7 +1,7 @@
 {
-  "name": "quick-resize",
-  "version": "0.1.2",
-  "description": "Quickly resize multiple images with the `quick-resize` command-line tool. Resize images to your desired widths efficiently and with minimal dependencies. Perfect for preparing images for a website, reducing file size, or sharing images.",
+  "name": "fast-resize",
+  "version": "0.1.3",
+  "description": "fast-resize is a command-line tool for resizing images quickly and easily. It allows you to specify the desired width for one or more images and outputs the resized images in a fraction of the time compared to manual resizing. The package is lightweight, flexible, and easy to use, making it perfect for developers and designers who need to resize images frequently.",
   "main": "bin/index.js",
   "bin": {
     "quick-resize": "bin/index.js"
